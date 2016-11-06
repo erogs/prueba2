@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="registro:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="registro-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="registro:war exploded" />
+    </root>
+  </artifact>
+</component>
