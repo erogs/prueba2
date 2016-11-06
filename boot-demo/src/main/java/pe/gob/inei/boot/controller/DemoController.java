@@ -19,8 +19,8 @@ public class DemoController {
                                           @RequestParam("q") String query) {
         List<Objeto> response = new ArrayList<>();
         if ("1234".equals(clave)) {
-            response.add(new Objeto(1, query +"knuto"));
-            response.add(new Objeto(2, query + "goku"));
+            response.add(new Objeto(1, query + " knuto"));
+            response.add(new Objeto(2, query + " goku"));
             return new ResponseEntity<>(response, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
